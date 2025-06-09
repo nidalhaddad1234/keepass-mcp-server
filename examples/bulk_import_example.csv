@@ -1,0 +1,11 @@
+title,username,password,url,notes,group,tags
+"Example Website","john.doe@email.com","SecurePass123!","https://example.com","Account for testing","Work","work,web"
+"Banking Portal","user123","MyBankPass456","https://bank.example.com","Personal banking account","Finance","banking,important"
+"Social Media","johndoe","SocialPass789","https://social.example.com","Social media profile","Personal","social,personal"
+"Development Server","admin","DevPass321!","https://dev.example.com","Development environment access","Work","development,server"
+"Email Account","john.doe@work.com","EmailPass654","https://mail.work.com","Work email account","Work","email,communication"
+"Cloud Storage","j.doe@personal.com","CloudPass987","https://cloud.example.com","Personal file storage","Personal","storage,cloud"
+"VPN Service","vpnuser","VPNPass555","https://vpn.example.com","VPN for secure browsing","Security","vpn,security"
+"Project Management","john.doe","ProjectPass222","https://project.example.com","Team project tracking","Work","project,collaboration"
+"Shopping Site","shopper123","ShopPass888","https://shop.example.com","Online shopping account","Personal","shopping,retail"
+"Subscription Service","subscriber","SubPass999","https://service.example.com","Monthly subscription","Entertainment","subscription,media"

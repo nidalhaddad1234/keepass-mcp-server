@@ -1,0 +1,12 @@
+KeePass MCP Server - Post-Migration Cleanup Log
+===============================================
+Date: $(date)
+Migration: MCP 1.9.3 → FastMCP
+
+Files to be cleaned up:
+1. deleted_files/ directory (old migration artifacts)
+2. Python cache files (__pycache__ in src/ directory)  
+3. Build artifacts (.egg-info directory)
+
+Optional cleanup:
+4. Virtual environment (venv/) - for fresh start

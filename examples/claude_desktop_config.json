@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "keepass": {
+      "command": "python",
+      "args": ["-m", "keepass_mcp_server"],
+      "env": {
+        "KEEPASS_DB_PATH": "/path/to/your/database.kdbx",
+        "KEEPASS_KEY_FILE": "/path/to/your/keyfile.key",
+        "KEEPASS_BACKUP_DIR": "/path/to/backups",
+        "KEEPASS_ACCESS_MODE": "readwrite",
+        "KEEPASS_AUTO_SAVE": "true",
+        "KEEPASS_BACKUP_COUNT": "10",
+        "KEEPASS_SESSION_TIMEOUT": "3600",
+        "KEEPASS_AUTO_LOCK": "1800",
+        "LOG_LEVEL": "INFO",
+        "LOG_FILE": "/path/to/logs/keepass-mcp.log",
+        "AUDIT_LOG": "true",
+        "USE_KEYCHAIN": "true",
+        "MASTER_PASSWORD_PROMPT": "true",
+        "MAX_RETRIES": "3",
+        "CACHE_TIMEOUT": "300",
+        "MAX_CONCURRENT_OPERATIONS": "5"
+      }
+    }
+  }
+}

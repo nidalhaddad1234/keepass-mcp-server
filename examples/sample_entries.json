@@ -1,0 +1,165 @@
+{
+  "sample_entries": [
+    {
+      "title": "GitHub Account",
+      "username": "developer123",
+      "password": "GitHubSecure2024!",
+      "url": "https://github.com",
+      "notes": "Main development account with 2FA enabled",
+      "group": "Development",
+      "tags": ["development", "git", "important"],
+      "custom_fields": {
+        "Two-Factor Auth": "Enabled via Authenticator App",
+        "Recovery Codes": "Stored in secure location",
+        "API Token": "ghp_xxxxxxxxxxxxxxxxxxxx"
+      },
+      "expires": null,
+      "icon": 1
+    },
+    {
+      "title": "AWS Management Console",
+      "username": "aws-admin",
+      "password": "AWSAdmin2024$",
+      "url": "https://console.aws.amazon.com",
+      "notes": "Root account for AWS infrastructure management",
+      "group": "Cloud Services",
+      "tags": ["aws", "cloud", "critical"],
+      "custom_fields": {
+        "Account ID": "123456789012",
+        "MFA Device": "arn:aws:iam::123456789012:mfa/root-account-mfa-device",
+        "Region": "us-east-1"
+      },
+      "expires": null,
+      "icon": 15
+    },
+    {
+      "title": "Company Database",
+      "username": "db_admin",
+      "password": "DbAdmin@2024!",
+      "url": "postgresql://db.company.com:5432/production",
+      "notes": "Production database access - use with extreme caution",
+      "group": "Infrastructure",
+      "tags": ["database", "production", "critical"],
+      "custom_fields": {
+        "Connection Timeout": "30 seconds",
+        "SSL Mode": "require",
+        "Backup Schedule": "Daily at 2 AM UTC"
+      },
+      "expires": "2024-12-31T23:59:59Z",
+      "icon": 8
+    },
+    {
+      "title": "Email Marketing Platform",
+      "username": "marketing@company.com",
+      "password": "EmailMkt2024#",
+      "url": "https://app.mailchimp.com",
+      "notes": "Marketing team account for email campaigns",
+      "group": "Marketing",
+      "tags": ["email", "marketing", "campaigns"],
+      "custom_fields": {
+        "Audience ID": "abc123def456",
+        "API Key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-us1",
+        "Monthly Quota": "50,000 emails"
+      },
+      "expires": null,
+      "icon": 3
+    },
+    {
+      "title": "Monitoring Dashboard",
+      "username": "admin",
+      "password": "Monitor2024!",
+      "url": "https://grafana.company.com",
+      "notes": "System monitoring and alerting dashboard",
+      "group": "Infrastructure",
+      "tags": ["monitoring", "grafana", "alerts"],
+      "custom_fields": {
+        "Alert Webhook": "https://hooks.slack.com/services/xxx/yyy/zzz",
+        "Data Retention": "30 days",
+        "Refresh Rate": "30 seconds"
+      },
+      "expires": null,
+      "icon": 12
+    }
+  ],
+  "sample_groups": [
+    {
+      "name": "Development",
+      "notes": "Development tools and services",
+      "icon": 1,
+      "parent": null
+    },
+    {
+      "name": "Cloud Services",
+      "notes": "Cloud infrastructure and services",
+      "icon": 15,
+      "parent": null
+    },
+    {
+      "name": "Infrastructure",
+      "notes": "Core infrastructure components",
+      "icon": 8,
+      "parent": null
+    },
+    {
+      "name": "Marketing",
+      "notes": "Marketing tools and platforms",
+      "icon": 3,
+      "parent": null
+    },
+    {
+      "name": "Personal",
+      "notes": "Personal accounts and services",
+      "icon": 0,
+      "parent": null
+    },
+    {
+      "name": "Finance",
+      "notes": "Financial services and banking",
+      "icon": 42,
+      "parent": "Personal"
+    },
+    {
+      "name": "Entertainment",
+      "notes": "Entertainment and media services",
+      "icon": 25,
+      "parent": "Personal"
+    }
+  ],
+  "password_generation_presets": {
+    "web_standard": {
+      "length": 16,
+      "include_uppercase": true,
+      "include_lowercase": true,
+      "include_numbers": true,
+      "include_symbols": true,
+      "exclude_ambiguous": true
+    },
+    "high_security": {
+      "length": 24,
+      "include_uppercase": true,
+      "include_lowercase": true,
+      "include_numbers": true,
+      "include_symbols": true,
+      "exclude_ambiguous": true,
+      "min_uppercase": 2,
+      "min_lowercase": 2,
+      "min_numbers": 2,
+      "min_symbols": 2
+    },
+    "simple_alphanumeric": {
+      "length": 12,
+      "include_uppercase": true,
+      "include_lowercase": true,
+      "include_numbers": true,
+      "include_symbols": false,
+      "exclude_ambiguous": true
+    },
+    "pin_code": {
+      "length": 6,
+      "include_uppercase": false,
+      "include_lowercase": false,
+      "include_numbers": true,
+      "include_symbols": false
+    }
+  }
+}
