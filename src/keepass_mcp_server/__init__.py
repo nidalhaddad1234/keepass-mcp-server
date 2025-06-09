@@ -10,15 +10,15 @@ __version__ = "1.0.0"
 __author__ = "KeePass MCP Server Team"
 __email__ = "support@keepass-mcp.com"
 
-from .server import KeePassMCPServer
-from .keepass_handler import KeePassHandler
 from .exceptions import (
-    KeePassMCPError,
-    DatabaseError,
     AuthenticationError,
-    ValidationError,
+    DatabaseError,
+    KeePassMCPError,
     SecurityError,
+    ValidationError,
 )
+from .keepass_handler import KeePassHandler
+from .server import KeePassMCPServer
 
 __all__ = [
     "KeePassMCPServer",
