@@ -25,7 +25,7 @@ setup(
     long_description_content_type="text/markdown",
     author="KeePass MCP Server Team",
     author_email="support@keepass-mcp.com",
-    url="https://github.com/keepass-mcp/keepass-mcp-server",
+    url="https://github.com/nidalhaddad1234/keepass-mcp-server",
     license="MIT",
     
     # Package configuration
@@ -91,10 +91,10 @@ setup(
     
     # Project URLs
     project_urls={
-        "Documentation": "https://github.com/keepass-mcp/keepass-mcp-server/blob/main/README.md",
-        "Source": "https://github.com/keepass-mcp/keepass-mcp-server",
-        "Tracker": "https://github.com/keepass-mcp/keepass-mcp-server/issues",
-        "Changelog": "https://github.com/keepass-mcp/keepass-mcp-server/blob/main/CHANGELOG.md",
+        "Documentation": "https://github.com/nidalhaddad1234/keepass-mcp-server/blob/main/README.md",
+        "Source": "https://github.com/nidalhaddad1234/keepass-mcp-server",
+        "Tracker": "https://github.com/nidalhaddad1234/keepass-mcp-server/issues",
+        "Changelog": "https://github.com/nidalhaddad1234/keepass-mcp-server/blob/main/CHANGELOG.md",
     },
     
     # Additional metadata

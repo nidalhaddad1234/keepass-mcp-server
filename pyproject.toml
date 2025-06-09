@@ -71,11 +71,11 @@ fastmcp = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/nidal-haddad/keepass-mcp-server"
-Documentation = "https://github.com/nidal-haddad/keepass-mcp-server/blob/main/README.md" 
-Repository = "https://github.com/nidal-haddad/keepass-mcp-server"
-Issues = "https://github.com/nidal-haddad/keepass-mcp-server/issues"
-Changelog = "https://github.com/nidal-haddad/keepass-mcp-server/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/nidalhaddad1234/keepass-mcp-server"
+Documentation = "https://github.com/nidalhaddad1234/keepass-mcp-server/blob/main/README.md" 
+Repository = "https://github.com/nidalhaddad1234/keepass-mcp-server"
+Issues = "https://github.com/nidalhaddad1234/keepass-mcp-server/issues"
+Changelog = "https://github.com/nidalhaddad1234/keepass-mcp-server/blob/main/CHANGELOG.md"
 
 [project.scripts]
 keepass-mcp-server = "keepass_mcp_server.server:main"
